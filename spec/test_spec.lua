@@ -1,4 +1,5 @@
 require 'busted.runner'()
+-- local dump = require("pl.pretty").dump
 local yaml = require('yaml')
 
 function scandir(directory)
